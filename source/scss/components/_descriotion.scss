@@ -1,0 +1,54 @@
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 538px;
+    height: 353px;
+
+    &__title {
+      width: 515px;
+      height: 170px;
+      margin: 0;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 72px;
+      line-height: 85px;
+      color: #3D3D3F;
+    }
+
+    &__text {
+      margin: 0;
+      height: 48px;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      color: #3D3D3F;
+    }
+
+    &__button {
+      width: 219px;
+      height: 53px;
+      border: none;
+      background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+      opacity: 0.85;
+      border-radius: 5px;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;  
+      color: #FFFFFF;
+    }
+  }
+
+
+}
