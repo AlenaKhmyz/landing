@@ -46,6 +46,16 @@
   opacity: 0.95;
 }
 
+.head__logo__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #3D3D3F;
+}
+
 .head__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -737,5 +747,191 @@
           box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.03);
   border-radius: 5px;
   border: none;
+}
+
+.sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sidebar__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar__contact__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar__contact__logo__img {
+  opacity: 0.95;
+}
+
+.sidebar__contact__logo__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #3D3D3F;
+}
+
+.sidebar__contact__adress {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 180%;
+  color: #646464;
+}
+
+.sidebar__contact__number {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 180%;
+  color: #646464;
+}
+
+.sidebar__contact__networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sidebar__contact__networks__facebook {
+  height: 60px;
+  width: 60px;
+  background: url(../img/networks/black-facebook.png) no-repeat 100%;
+  background-position: center;
+}
+
+.sidebar__contact__networks__twitter {
+  height: 60px;
+  width: 60px;
+  background: url(../img/networks/black-twitter.png) no-repeat 100%;
+  background-position: center;
+}
+
+.sidebar__contact__networks__instagram {
+  height: 60px;
+  width: 60px;
+  background: url(../img/networks/instagram.png) no-repeat 100%;
+  background-position: center;
+}
+
+.sidebar__contact__networks__youtube {
+  height: 60px;
+  width: 60px;
+  background: url(../img/networks/youtube.png) no-repeat 100%;
+  background-position: center;
+}
+
+.sidebar__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar__links__title {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  color: #323232;
+}
+
+.sidebar__links__block {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #646464;
+}
+
+.sidebar__newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar__newsletter__title {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3F;
+}
+
+.sidebar__newsletter__text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 180%;
+  color: #646464;
+}
+
+.sidebar__newsletter__email {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  background: #FFFFFF;
+  border: 1.1px solid #E1E2E4;
+  color: rgba(117, 117, 117, 0.65);
+}
+
+.sidebar__newsletter__button {
+  border: none;
+  opacity: 0.85;
+  border: 1.1px solid #E1E2E4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  background: linear-gradient(332.36deg, #F35F2F -17.11%, rgba(243, 95, 47, 0.75) 86.38%);
 }
 /*# sourceMappingURL=main.css.map */

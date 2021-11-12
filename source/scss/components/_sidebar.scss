@@ -1,0 +1,151 @@
+.sidebar {
+  display: flex;
+  flex-direction: row;
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+
+    &__logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      &__img {
+        opacity: 0.95;
+      }
+
+      &__title {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: #3D3D3F;
+      }
+    }
+
+    &__adress {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 180%;
+      color: #646464;
+    }
+
+    &__number {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 180%;
+      color: #646464;
+    }
+
+    &__networks {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      &__facebook {
+        height: 60px;
+        width: 60px;
+        background: url(../img/networks/black-facebook.png) no-repeat 100%;
+        background-position: center;
+      }
+
+      &__twitter {
+        height: 60px;
+        width: 60px;
+        background: url(../img/networks/black-twitter.png) no-repeat 100%;
+        background-position: center;
+      }
+
+      &__instagram {
+        height: 60px;
+        width: 60px;
+        background: url(../img/networks/instagram.png) no-repeat 100%;
+        background-position: center;
+      }
+
+      &__youtube {
+        height: 60px;
+        width: 60px;
+        background: url(../img/networks/youtube.png) no-repeat 100%;
+        background-position: center;
+      }
+      
+    }
+  }
+
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 16px;
+      color: #323232;
+    }
+
+    &__block {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      color: #646464;
+    }
+  }
+
+  &__newsletter {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 16px;
+      color: #3D3D3F;
+    }
+
+    &__text {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 180%;
+      color: #646464;
+    }
+
+    &__email {
+      box-sizing: border-box;
+      border-radius: 5px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      background: #FFFFFF;
+      border: 1.1px solid #E1E2E4;
+      color: rgba(117, 117, 117, 0.65);
+    }
+
+    &__button {
+      border: none;
+      opacity: 0.85;
+      border: 1.1px solid #E1E2E4;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background: linear-gradient(332.36deg, #F35F2F -17.11%, rgba(243, 95, 47, 0.75) 86.38%);
+    }
+  }
+}
