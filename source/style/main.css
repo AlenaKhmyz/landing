@@ -167,4 +167,121 @@
   line-height: 24px;
   color: #FFFFFF;
 }
+
+.facts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.facts__title {
+  margin: 0;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #3D3D3F;
+}
+
+.facts__datas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1170px;
+  height: 314px;
+  border: 2px solid rgba(235, 235, 235, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 17px;
+}
+
+.information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 242px;
+  width: 390px;
+}
+
+.information__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 99.68px;
+  height: 90px;
+  border-radius: 15px;
+}
+
+.information__value {
+  margin: 0;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  color: #3D3D3F;
+}
+
+.information__description {
+  margin: 0;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.active-border {
+  border-left: 2px solid rgba(235, 235, 235, 0.8);
+  border-right: 2px solid rgba(235, 235, 235, 0.8);
+}
+
+.group {
+  background: #79E28A;
+}
+
+.customers {
+  border-radius: 22px;
+  background: #60DAFF;
+}
+
+.clients {
+  border-radius: 22px;
+  background: #F37168;
+}
 /*# sourceMappingURL=main.css.map */
