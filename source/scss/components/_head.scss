@@ -1,9 +1,8 @@
 .head {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
 
   &__logo {
     display: flex;
