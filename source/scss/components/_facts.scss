@@ -2,9 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+
+  @include mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 8% 0;
+  }
 
   &__title {
-    margin: 0;
+    margin-bottom: 2rem;
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
@@ -18,11 +27,18 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 1170px;
-    height: 314px;
     border: 2px solid rgba(235, 235, 235, 0.8);
     box-sizing: border-box;
     border-radius: 17px;
+    margin: 5% 0;
+    padding: 2%;
+
+    @include mobile{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: 6% 0;
+    }
   }
 
 }
@@ -33,9 +49,11 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 242px;
-  width: 390px;
+  padding: 0 3rem;
  
+    @include mobile{
+      padding: 5% 2%;
+    }
 
   &__container {
     display: flex;
@@ -55,6 +73,10 @@
     font-size: 36px;
     line-height: 47px;
     color: #3D3D3F;
+
+    @include mobile{
+      font-size: 1rem;
+    }
   }
 
   &__description {
@@ -64,12 +86,27 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 31px;
+
+     @include mobile{
+      font-size: 1rem;
+      line-height: 19px;
+    }
   }
 }
 
 .active-border {
   border-left: 2px solid rgba(235, 235, 235, 0.8);
   border-right: 2px solid rgba(235, 235, 235, 0.8);
+  padding: 0 5rem;
+
+    @include mobile {
+      padding: 1rem;
+      border-left: none;
+      border-right: none;
+      border-top: 2px solid rgba(235, 235, 235, 0.8);
+      border-bottom: 2px solid rgba(235, 235, 235, 0.8);
+    }
+
 }
 
 .group {

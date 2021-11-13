@@ -2,14 +2,24 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5% 0;
+  flex-wrap: wrap;
+  padding: 10% 0;
 
+ @include mobile {
+    padding-top: 20%;
+  }
+  
   &__content {
     display: flex;
     flex-direction: column;
     width: 50%;
     align-items: start;
     justify-content: center;
+
+    @include mobile {
+      width: 100%;
+    }
+
 
     &__title {
       margin: 0;
@@ -19,6 +29,12 @@
       font-size: 72px;
       line-height: 85px;
       color: #3D3D3F;
+
+      @include mobile {
+        margin: 0;
+        font-size: 60px;
+        line-height: 60px;
+      }
     }
 
     &__text {
@@ -29,12 +45,17 @@
       font-size: 20px;
       line-height: 24px;
       color: #3D3D3F;
+
+      @include mobile {
+        margin-top: 2rem;
+      }
     }
 
     &__button {
       width: 219px;
       height: 53px;
       border: none;
+      cursor: pointer;
       background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
       opacity: 0.85;
       border-radius: 5px;
@@ -44,9 +65,27 @@
       font-size: 20px;
       line-height: 24px;  
       color: #FFFFFF;
+
+      @include mobile {
+        margin: 2rem 0;
+      }
     }
   }
 
+  &__community {
+    width: 50%;
+    @include mobile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+    }
+    &__image {
+      width: 100%;
+    }
+  
 
+   
+  }
 }
 

@@ -1,5 +1,10 @@
 .wrap {
   display: flex;
   flex-direction: column;
-  padding: 2% 5%;
+  padding: 2% 8%;
+  width: 100%;
+
+  @include landscape-down {
+    padding: 2% 5%;
+  }
 }

@@ -1,4 +1,7 @@
 //Components
+@import './config/mixins';
+@import './config/variables';
+
 @import './components/wrap';
 @import './components/head';
 @import './components/descriotion';
@@ -9,3 +12,18 @@
 @import './components/contact';
 @import './components/sidebar';
 @import './components/footer';
+
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body { 
+  width: 100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0%;
+}
+
+
